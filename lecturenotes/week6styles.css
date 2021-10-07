@@ -1,0 +1,21 @@
+h1 {
+    color:deeppink;
+    font-size: 400%;
+    letter-spacing: 1.1em;
+}
+p {
+    color:royalblue;
+    font-weight: bolder;
+}
+body {
+    color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, h2 {
+    font-size: 400%;
+    /* this is a grouped selector - it will style both headings */
+}
+p a {
+    color:orange;
+    /* only styling links inside the p tag */
+}
