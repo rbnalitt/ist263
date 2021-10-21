@@ -7,9 +7,10 @@ nav a{padding: 10px;
     margin-bottom: 30px; }
     .copyright {float: left;}
     .quote {float: right;}
-    .address {float:left;}
-    .linkedin {float: right;}
-    .form {display: flex; background-color: #cce5ff; border-radius: 1em;}
-    .firstt {background-color: #26f27b;}
+    .address {float:left; margin-right: 50px;}
+    .form {display: flex; background-color: #cce5ff; border-radius: 1em; padding: 20px; margin-top: 20px;}
+    .firstt {background-color: #cce5ff; padding: 20px; margin-bottom: 20px; border-radius: 1em;}
     .clear {clear:both;}
-    div {border: 1px solid #f226b5}
+    .linkedin img{width: 70px;}
+    .actual {margin-right: 50px}
+nav {background-color: #f7f5a2;}
