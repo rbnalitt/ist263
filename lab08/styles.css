@@ -1,0 +1,15 @@
+body {
+    background-color: #e7b3ff;
+}
+nav a{color: #f226b5}
+nav a:hover{background-color: #fffb00;}
+nav a{padding: 10px; 
+    margin-bottom: 30px; }
+    .copyright {float: left;}
+    .quote {float: right;}
+    .address {float:left;}
+    .linkedin {float: right;}
+    .form {display: flex; background-color: #cce5ff; border-radius: 1em;}
+    .firstt {background-color: #26f27b;}
+    .clear {clear:both;}
+    div {border: 1px solid #f226b5}
