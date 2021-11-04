@@ -25,3 +25,9 @@ nav {background-color: #f7f5a2;}
 .skills {display: flex; flex-basis: 75%; justify-content: space-around; margin-right: 50px; margin-top: 50px;}
 .right {background-color: #c1ffc9; border-radius: 1em; flex-basis: 25%; padding: 20px;}
 .parent {display: flex;}
+.image {max-width: 100%}
+.form {flex-wrap: wrap;}
+@media only screen and (max-width: 600px) {
+    nav a{max-width: 100%}
+    span {display: none;}
+}
