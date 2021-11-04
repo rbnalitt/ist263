@@ -28,6 +28,6 @@ nav {background-color: #f7f5a2;}
 .image {max-width: 100%}
 .form {flex-wrap: wrap;}
 @media only screen and (max-width: 600px) {
-    nav a{max-width: 100%}
+    nav a{max-width: 100%; display: block;}
     span {display: none;}
 }
