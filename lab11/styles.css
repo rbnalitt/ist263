@@ -1,0 +1,41 @@
+body {
+    background-color: #e7b3ff;
+}
+nav a{color: #f226b5}
+nav a:hover{background-color: #fffb00;}
+nav a{padding: 10px; 
+    margin-bottom: 30px; }
+    .copyright {float: left;}
+    .quote {float: right;}
+    .address {float:left; margin-right: 50px;}
+    .form {display: flex; background-color: #cce5ff; border-radius: 1em; padding: 20px; margin-top: 20px;}
+    .firstt {background-color: #cce5ff; padding: 20px; margin-bottom: 20px; border-radius: 1em;}
+    .clear {clear:both;}
+    .linkedin img{width: 70px;}
+    .actual {margin-right: 50px}
+nav {background-color: #f7f5a2;}
+.header {display: flex;
+            justify-content: center;
+            margin-top: 50px;}
+.python img{width: 50px;}
+.html img{width: 50px;}
+.css img{width: 50px;}
+.excel img{width: 50px;}
+.microsoft img {width: 50px;}
+.skills {display: flex; flex-basis: 75%; justify-content: space-around; margin-right: 50px; margin-top: 50px;}
+.right {background-color: #c1ffc9; border-radius: 1em; flex-basis: 25%; padding: 20px;}
+.parent {display: flex;}
+.image {max-width: 100%}
+.form {flex-wrap: wrap;}
+@media only screen and (max-width: 600px) {
+    nav a{max-width: 100%; display: block;}
+    span {display: none;}
+}
+#skip {
+    position: absolute; 
+    left: -999px; 
+    background-color: #f507e1;
+}
+#skip:focus { 
+    left: 10px; 
+}
