@@ -1,7 +1,7 @@
 body {
     background-color: #e7b3ff;
 }
-nav a{color: #fc0000}
+nav a{color: #4300fc}
 nav a:hover{background-color: #fffb00;}
 nav a{padding: 10px; 
     margin-bottom: 30px; }
@@ -13,7 +13,7 @@ nav a{padding: 10px;
     .clear {clear:both;}
     .linkedin img{width: 70px;}
     .actual {margin-right: 50px}
-nav {background-color: #f7f5a2;}
+nav {background-color: #f7f6a2cc;}
 .header {display: flex;
             justify-content: center;
             margin-top: 50px;}
