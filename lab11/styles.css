@@ -34,7 +34,7 @@ nav {background-color: #f7f5a2;}
 #skip {
     position: absolute; 
     left: -999px; 
-    background-color: #f507e1;
+    background-color: #52f507;
 }
 #skip:focus { 
     left: 10px; 
