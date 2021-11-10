@@ -1,7 +1,7 @@
 body {
     background-color: #e7b3ff;
 }
-nav a{color: #0075fc}
+nav a{color: #fc0000}
 nav a:hover{background-color: #fffb00;}
 nav a{padding: 10px; 
     margin-bottom: 30px; }
@@ -34,7 +34,7 @@ nav {background-color: #f7f5a2;}
 #skip {
     position: absolute; 
     left: -999px; 
-    background-color: #52f507;
+    background-color: #f5f107;
 }
 #skip:focus { 
     left: 10px; 
