@@ -12,15 +12,13 @@
         nav a:link {text-decoration: none;}
         nav a:visited {text-decoration: none;}
         nav a:active {text-decoration: none;}
-        nav {text-align: center; font-weight: bolder;}
-    /* how do i create space bewteen my navs */
+        nav {text-align: center; font-weight: bolder; padding: 20px; font-size: larger;}
     .header {display: flex;
             justify-content: center;
             font-size: 2em;
             margin-top: 10px;
             background-color: black;
             color: rgb(255, 0, 179);}
-    /* how do i write the font */
     .header2 {display: flex;
             justify-content: center;
             margin-top: 20px;}
@@ -41,7 +39,10 @@
     .five {flex:1;
     padding-right: 5em;
     margin-left: 5em;}
-    
+    @media only screen and (max-width: 600px) {
+    nav a{max-width: 100%; display: block;}
+    span {display: none;}
+}
     </style>
 
     </head>

@@ -3,42 +3,95 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Food 4 Foodies</title>    
+        <title>Food 4 Foodies</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <style>
+            nav a{color: #000000;}
+           nav a:hover{background-color: rgb(255, 0, 179);
+               font-weight: bolder;
+               text-decoration: none;}
+           nav a:link {text-decoration: none;}
+           nav a:visited {text-decoration: none;}
+           nav a:active {text-decoration: none;}
+           nav {text-align: center; font-weight: bolder; padding: 20px; font-size: larger;}
+       .header {display: flex;
+               justify-content: center;
+               font-size: 2em;
+               margin-top: 10px;
+               background-color: black;
+               color: rgb(255, 0, 179);}
+       body {background-color: lightgray;} 
+       .header2 {display: flex;
+            justify-content: center;
+            margin-top: 20px;}  
+        .NYC {
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 1em;
+            padding: 20px;
+        }
+        .pictures1 {display: flex;
+            flex-wrap: wrap;
+            justify-content: center;}
+        .pictures2 {display: flex;
+            flex-wrap: wrap;
+            justify-content: center;}
+        .pictures3 {display: flex;
+            flex-wrap: wrap;
+            justify-content: center;}
+        .syracuse {
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 1em;
+            padding: 20px;
+        }
+        h4 {font-family: 'Staatliches', cursive; color: rgb(211, 0, 253); font-size: x-large;}
+            @media only screen and (max-width: 600px) {
+                nav a{max-width: 100%; display: block;}
+                span {display: none;}
+        </style>
     </head>
     <body>
-        <div>
+        <div class= "nav">
             <nav> <a href="page1.html">Home</a>
                 <a href="page2.html">Features</a>
                 <a href="page3.html">Recs</a></nav> 
         </div>  
-    <div><h1>Food 4 Foodies</h1></div>
-       <h2>Hot Spots!!!!!!!!!</h2>
+    <div  class= "header"><h1>Food 4 Foodies</h1></div>
+       <h2 class= "header2">Hot Spots!!!!!!!!!</h2>
     <div>
-        <div>
+        <div class="NYC">
             <h3>NYC</h3>
-            <h4>Olio e Píu</h4>
-            <p>Rating: 10/10
-                Order:
-                To start the Bruschetta Ricotta, and the Caprese salad and for dinner the Linguine alle Vongole and the Burrata and Lemoncello Ravioli. 
-                Review: 
+            <h4 class="olio">Olio e Píu</h4>
+            <p><strong>Rating:</strong> 10/10 <br>
+                <strong>Order:</strong>
+                To start the Bruschetta Ricotta, and the Caprese salad and for dinner the Linguine alle Vongole and the Burrata and Lemoncello Ravioli. <br>
+                <strong>Review:</strong> 
                 Very good vibe younger crowd but also great for adults, great outside seating, very pretty, great drinks. Great place to go for great food and dinner with friends or on a date. 
                  </p>
-            <div><img src="Picture11.png" alt="picture11"></div>
+            <div class= "pictures1">
+                <div><img src="Picture11(new1).png" alt="picture11"></div>
             <div><img src="Picture12.png" alt="picture12"></div>
+            </div>
+            
         </div>
     </div>
     <div>
-        <div>
+        <div class="syracuse">
             <h3>Syracuse</h3>
-            <h4>Eden</h4>
+            <h4 class="eden">Eden</h4>
             <p>Rating: 8/10
                 Order: 
                 To start the grilled halloumi and grilled octopus. For dinner the hand rolled cavatelli and the bang’s island mussels. 
                 Review:
                 Hidden gem. Very small and intimate vibe but very pretty. It’s a fancier restaurant a place for a date or with your parents. High quality food but definitely not meant for picky eaters. Great wine. Does not feel like you are in Syracuse. Menu changes weekly and is small.                 
                  </p>
-            <div><img src="Picture13.png" alt="picture13"></div>
-            <div><img src="Picture14.png" alt="picture14"></div>
+            <div class="pictures2">
+               <div><img src="Picture13.png" alt="picture13"></div>
+            <div><img src="Picture14(new).png" alt="picture14"></div> 
+            </div>
         </div>
     </div>
     <div>
@@ -53,8 +106,11 @@
                 Review: 
                 One of my all-time favorite sushi restaurants. AMAZING. Small and intimate vibe. Not a fun restaurant but definitely for foodies. Have basic sushi but also crazy sushi. So many different flavors and sauces. Waiters and waitresses are very friendly and care about the food and people.                 
                  </p>
-            <div><img src="Picture15.png" alt="picture15"></div>
-            <div><img src="Picture16.png" alt="picture16"></div>
+            <div class="pictures3" >
+               <div><img src="Picture15.png" alt="picture15"></div>
+                <div><img src="Picture16(new).png" alt="picture16"></div> 
+            </div>
+            
         </div>
     </div>
             <form action="mailto:rbnalitt@syr.edu" method="post">

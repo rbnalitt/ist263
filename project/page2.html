@@ -3,77 +3,229 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Food 4 Foodies</title>    
+        <title>Food 4 Foodies</title>
+        <style>
+            nav a{color: #000000;}
+           nav a:hover{background-color: rgb(255, 0, 179);
+               font-weight: bolder;
+               text-decoration: none;}
+           nav a:link {text-decoration: none;}
+           nav a:visited {text-decoration: none;}
+           nav a:active {text-decoration: none;}
+           nav {text-align: center; font-weight: bolder;  padding: 20px; font-size: larger;}
+       .header {display: flex;
+               justify-content: center;
+               font-size: 2em;
+               margin-top: 10px;
+               background-color: black;
+               color: rgb(255, 0, 179);}
+       body {background-color: lightgray;}
+       .header2 {display: flex;
+            justify-content: center;
+            margin-top: 20px;}
+        .text1 {display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-weight: bolder;}
+        .cauliflower {text-align: center;
+            margin-top: 20px;
+            border-radius: 1em;
+            padding: 20px;}
+        .maincauliflower {background-color: rgb(231, 237, 255);
+            border-radius: 1em;
+            padding: 20px;}
+        .snackc {background-color: rgb(252, 255, 213);
+            border-radius: 1em;
+            padding: 20px;}
+        .bestc {background-color: rgb(231, 223, 255);
+            border-radius: 1em;
+            padding: 20px;}
+        .chickpeas {text-align: center;
+            margin-top: 20px;
+            border-radius: 1em;
+            padding: 20px;}
+        .mainchickpeas {background-color: rgb(231, 237, 255);
+            border-radius: 1em;
+            padding: 20px;}
+        .snackc2 {background-color: rgb(252, 255, 213);
+            border-radius: 1em;
+            padding: 20px;}
+        .bestc2 {background-color: rgb(231, 223, 255);
+            border-radius: 1em;
+            padding: 20px;}
+        .springrolls {text-align: center;
+            margin-top: 20px;
+            border-radius: 1em;
+            padding: 20px;}
+        .mainspringrolls {background-color: rgb(231, 237, 255);
+            border-radius: 1em;
+            padding: 20px;}
+        .bests {background-color: rgb(231, 223, 255);
+            border-radius: 1em;
+            padding: 20px;}
+            @media only screen and (max-width: 600px) {
+                nav a{max-width: 100%; display: block;}
+                span {display: none;}
+       </style>    
     </head>
     <body>
-        <div>
+        <div class= "nav">
             <nav> <a href="page1.html">Home</a>
                 <a href="page2.html">Features</a>
                 <a href="page3.html">Recs</a></nav> 
         </div>  
-    <div><h1>Food 4 Foodies</h1></div>
-       <h2>Features</h2>
-       <p>Now a days, there is always a "trending food." Here is where I want to feature the foods that I feel are currently trendning foods.</p>
+    <div class= "header"><h1>Food 4 Foodies</h1></div>
+       <h2 class= "header2">Features</h2>
+       <p class= "text1">Now a days, there is always a "trending food." Here is where I want to feature the foods that I feel are currently trending foods.</p>
     <div>
-        <div>
+        <div class="cauliflower">
+        <div class="maincauliflower">
             <h3>Cauliflower</h3>
             <p>Cauliflower is not just a simple boring vegetable. It all started as a gluten-free, low carb alternative to wheat flour and pizza crust and blew up. Cauliflower is now used for everything. It is a great healthy alternative.  </p>
-            <div><img src="Picture8.png" alt="picture8"></div>
-            <h4>Snack Idea!</h4>
+            <div><img src="Picture8.png" alt="picture8"></div> 
+        </div>
+        <div class="snackc">
+           <h4>Snack Idea!</h4>
             <h5>Cauliflower puree</h5>
             <p>
                 Using a Cuisinart puree frozen garlic cauliflower, a small chicken broth and seasoning.  
-                </p>
-            <h4>Best cauliflower pizza in New York:</h4>
-            <p>Long island: 
-                Carlos Pizza
-                Da Angelo Pizzeria & Ristorante 
-                NYC:
-                Marinara Pizza 
-                Syracuse: 
-                Blaze pizza                  
-                </p>
-            <div><img src="Picture9.png" alt="picture9"></div> 
+                </p>  
+        </div>
+            <div class="bestc">
+               <h4>Best cauliflower pizza in New York:</h4>
+            <li>
+                <ul> 
+                <strong>Long island:</strong>
+                </ul>
+                <ul>
+                  Carlos Pizza  
+                </ul>
+                <ul>
+                   Da Angelo Pizzeria & Ristorante 
+                </ul> 
+                <ul><strong>
+                    NYC: 
+                </strong> 
+                </ul>
+                <ul>
+                  Marinara Pizza  
+                </ul> 
+               <ul>
+                 <strong>
+                   Syracuse:   
+                 </strong>  
+               </ul>
+               <ul>
+                 Blaze pizza   
+               </ul>    
+            </li> 
+
+            <div><img src="Picture9.png" alt="picture9"></div>  
+            </div>
+            
         </div>
     </div>
     <div>
-        <div>
-            <h3>Chickpeas</h3>
+        <div class="chickpeas">
+            <div class="mainchickpeas">
+                <h3>Chickpeas</h3>
             <p>Chickpeas are a great stable whether it is as a snack, in a salad, or as hummus. I LOVE chickpeas. I feel like there is so much you can do with them. </p>
             <div><img src="Picture6.png" alt="picture6"></div>
+            </div>
+            <div class="snackc2">
             <h4>Snack Idea!</h4>
             <h5>Crispy Chickpeas</h5>
             <p>
-                Lay chickpeas out on a pan with any of your favorite seasonings (I use truffle salt) 
-                Pre heat to 400 degrees 
+                Lay chickpeas out on a pan with any of your favorite seasonings (I use truffle salt) <br>
+                Pre heat oven to 400 degrees <br>
                 Continuously check on them and mix them around until they’re crispy 
                 </p>
+            </div>
+            <div class="bestc2">
             <h4>Favorite hummus spots in New York: </h4>
-            <p>Long island:
-                Kyma
-                Limani 
-                Ravagh Persian Grill 
-                Chicken Kabab 
-                Krinti 
-                NYC: 
-                12 chairs 
-                Shoo shoo 
-                </p>
-            <div><img src="Picture7.png" alt="picture7"></div> 
+            <li>
+                <ul><strong>
+                   Long island: 
+                </strong>
+                </ul>
+                <ul>
+                  Kyma  
+                </ul>
+                <ul>
+                  Limani  
+                </ul>
+                <ul>
+                  Ravagh Persian Grill  
+                </ul>
+                <ul>
+                 Chicken Kabab   
+                </ul>
+                <ul>
+                  Krinti  
+                </ul>
+                <ul>
+                <strong>
+                NYC:  
+                </strong>
+                </ul>
+                <ul>
+                  12 chairs  
+                </ul>
+                <ul>
+                  Shoo shoo  
+                </ul>
+                <ul>
+                <strong>
+                  Syracuse:  
+                </strong>
+                </ul>
+                <ul>
+                  Oh My Darling  
+                </ul>
+                <ul>
+                  King David  
+                </ul>
+            </li>
+            <div><img src="Picture7.png" alt="picture7"></div>  
+            </div>
+
         </div>
     </div>
     <div>
-        <div>
-            <h3>Spring Rolls</h3>
+        <div class="springrolls">
+            <div class="mainspringrolls">
+             <h3>Spring Rolls</h3>
             <p>No, I am not talking about the fried spring rolls you get at a Chinese restaurant. I am talking about the healthy yummy and fresh spring rolls that can be made at home or found at certain restaurants. The ones wrapped in rice paper with crab or shrimp, lettuce, avocado, cucumber, and carrots and of course sauce of your choice (I choose duck sauce). This is one of my personal favorite and healthy snacks.</p>
             <div><img src="Picture10.png" alt="picture10"></div>
-            <h4>Favorite spring rolls in New York:</h4>
-            <p>Citarella
-                Graces Market 
-                Wegmans 
-                Syracuse: 
-                Sakana ya                   
-                </p>
+            </div>
+           <div class="bests">
+               <h4>Favorite spring rolls in New York:</h4>
+            <li>
+                <ul>
+                <strong>
+                  NYC/ Long Island:  
+                </strong>
+                </ul>
+                <ul>
+                  Citarella  
+                </ul>
+                <ul>
+                  Graces Market   
+                </ul>
+                <ul>
+                <strong>
+                 Syracuse:   
+                </strong>
+                </ul>
+                <ul>
+                 Wegmans   
+                </ul>
+                <ul>
+                  Sakana ya  
+                </ul>
+            </li>
+           </div>
+            
         </div>
     </div>
     </body>
