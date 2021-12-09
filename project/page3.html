@@ -51,6 +51,15 @@
             @media only screen and (max-width: 600px) {
                 nav a{max-width: 100%; display: block;}
                 span {display: none;}
+        .longisland{
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 1em;
+            padding: 20px;
+        }
+        .form {background-color: rgb(231, 237, 255);
+            border-radius: 1em;
+        border: orange;}
         </style>
     </head>
     <body>
@@ -82,10 +91,10 @@
         <div class="syracuse">
             <h3>Syracuse</h3>
             <h4 class="eden">Eden</h4>
-            <p>Rating: 8/10
-                Order: 
-                To start the grilled halloumi and grilled octopus. For dinner the hand rolled cavatelli and the bang’s island mussels. 
-                Review:
+            <p><strong>Rating:</strong> 8/10 <br>
+                <strong>Order: </strong>
+                To start the grilled halloumi and grilled octopus. For dinner the hand rolled cavatelli and the bang’s island mussels. <br>
+                <strong>Review:</strong>
                 Hidden gem. Very small and intimate vibe but very pretty. It’s a fancier restaurant a place for a date or with your parents. High quality food but definitely not meant for picky eaters. Great wine. Does not feel like you are in Syracuse. Menu changes weekly and is small.                 
                  </p>
             <div class="pictures2">
@@ -95,15 +104,14 @@
         </div>
     </div>
     <div>
-        <div>
+        <div class="longisland">
             <h3>Long Island</h3>
             <h4>Tiga</h4>
-            <p>Tiga 
-                Review: 
-                10/10
-                Order: 
-                To start Crispy Rice with Spicy Tuna, Edamame (spicy), and Brussel Sprouts. For dinner sweet jane, just like a woman, and big mac rolls. 
-                Review: 
+            <p><strong>Review: </strong>
+                10/10 <br>
+                <strong>Order:</strong> 
+                To start Crispy Rice with Spicy Tuna, Edamame (spicy), and Brussel Sprouts. For dinner sweet jane, just like a woman, and big mac rolls. <br>
+                <strong>Review:</strong> 
                 One of my all-time favorite sushi restaurants. AMAZING. Small and intimate vibe. Not a fun restaurant but definitely for foodies. Have basic sushi but also crazy sushi. So many different flavors and sauces. Waiters and waitresses are very friendly and care about the food and people.                 
                  </p>
             <div class="pictures3" >
@@ -113,12 +121,15 @@
             
         </div>
     </div>
-            <form action="mailto:rbnalitt@syr.edu" method="post">
+        <div class="form">
+           <form action="mailto:rbnalitt@syr.edu" method="post">
                 <label for="Recs">Enter your best recommendations!!!!</label><br>
                 <textarea id="Recs" name="Recs">HEREEE</textarea>
                 <br>
                 <br>
                 <input type="submit" value="Submit">
-            </form>
+            </form> 
+        </div>
+            
     </body>
 </html>
