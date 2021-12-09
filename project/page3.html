@@ -7,6 +7,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
         <style>
             nav a{color: #000000;}
            nav a:hover{background-color: rgb(255, 0, 179);
@@ -41,25 +44,28 @@
         .pictures3 {display: flex;
             flex-wrap: wrap;
             justify-content: center;}
+         h4 {font-family: 'Staatliches', cursive; color: rgb(211, 0, 253); font-size: x-large;}   
+         h3 {font-family: 'Abril Fatface', cursive;} 
         .syracuse {
             text-align: center;
             margin-top: 20px;
             border-radius: 1em;
             padding: 20px;
         }
-        h4 {font-family: 'Staatliches', cursive; color: rgb(211, 0, 253); font-size: x-large;}
-            @media only screen and (max-width: 600px) {
-                nav a{max-width: 100%; display: block;}
-                span {display: none;}
         .longisland{
             text-align: center;
             margin-top: 20px;
             border-radius: 1em;
             padding: 20px;
         }
-        .form {background-color: rgb(231, 237, 255);
+        form {background-color: rgb(172, 47, 255);
             border-radius: 1em;
-        border: orange;}
+            border: 1px solid rgb(255, 255, 255);
+        color: white;}}
+       
+        @media only screen and (max-width: 600px) {
+                nav a{max-width: 100%; display: block;}
+                span {display: none;}}
         </style>
     </head>
     <body>
@@ -121,7 +127,7 @@
             
         </div>
     </div>
-        <div class="form">
+       <div class="form">
            <form action="mailto:rbnalitt@syr.edu" method="post">
                 <label for="Recs">Enter your best recommendations!!!!</label><br>
                 <textarea id="Recs" name="Recs">HEREEE</textarea>
@@ -129,7 +135,7 @@
                 <br>
                 <input type="submit" value="Submit">
             </form> 
-        </div>
+        </div> 
             
     </body>
 </html>
